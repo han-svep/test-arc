@@ -1,14 +1,1 @@
-<config>
-  <section name="proxy_0">
-    <entry name="reg_identity" value="sip:soft-phone-9002@test-arc.svep.se"/>
-    <entry name="reg_proxy" value="sip:test-arc.svep.se;transport=udp"/>
-    <entry name="reg_route" value="sip:test-arc.svep.se;transport=udp"/>
-    <entry name="reg_expires" value="3600"/>
-  </section>
 
-  <section name="auth_info_0">
-    <entry name="username" value="soft-phone-user"/>
-    <entry name="userid" value="soft-phone-9002"/>
-    <entry name="realm" value="test-arc.svep.se"/>
-  </section>
-</config>
